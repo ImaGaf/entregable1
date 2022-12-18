@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 3px 6px 1px gray;
+}
+
+.quote{
+    display: flex;
+}
+
+.fa-quote-left{
+    font-size: 60px;
+    padding: 1rem;
+}
+
+.quote > h1{
+    padding: 2rem 1rem 1rem 0.25rem;
+}
+
+.inside-cont{
+    text-align: end;
+    padding: 2rem;
+}
+
+button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 1.5rem;
+    border: none;
+    box-shadow: 2px 0 4px 0.5px gray;
+    color: white;
+}
+
+.fa-arrow-ligth{
+    font-size: 20px;
+}
